@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Dosis", sans-serif;
+}
+
+body, html {
+    height: 100vh;
+    width: 100vw;
+    background-color: #d5d5d5;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+header{
+    background-color: #2A2A2A;
+    box-sizing: border-box;
+}
+
+.div-header{
+    background-color: #2A2A2A;
+}
+
+header .perfil {
+    margin-top: 200px;
+    text-align: center;
+}
+
+header .perfil img{
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid #FFDE59;
+}
+
+
+
+/*===NAVBAR===*/
+
+header nav{
+    margin-top: 40px;
+}
+
+header nav ul li{
+    margin-top: 15px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    padding: 7px 10px;
+    margin: 7px 0px;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+}
+
+header nav ul li a i{
+    margin-right: 10px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+header nav ul li a:hover i{
+    color: #FFDE59;
+}
+
+header nav ul li .icone-ativo i{
+    color: #FFDE59;
+}
+
+ul{
+    border: 10px;
+    padding: 15px;
+    list-style: none;
+}
+
+/*MAIN SOBRE MIM*/
+
+main{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.info-sobremim{
+    padding: 0px 90px 0px 90px;
+}
+
+main h1{
+    display: inline-block;
+    font-size: 60px;
+    letter-spacing: 1px;
+}
+
+main h1 span#sobrenome{
+    color: #060606;
+}
+
+main h3 span{
+    color: #000000;
+}
+
+main p{
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight: 500;
+}
